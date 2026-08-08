@@ -41,10 +41,11 @@ class _SOSHomePageState extends State<SOSHomePage> {
         return;
       }
     }
+
     
     if (permission == LocationPermission.deniedForever) {
       return;
-    }
+    }flutter create .
 
     Position position = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.high);
